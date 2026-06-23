@@ -162,3 +162,7 @@ a, button {
     pointer-events: none;
     background-color: #e3e3e3;
 }
+
+.container {
+    padding-top: 72px;
+}
