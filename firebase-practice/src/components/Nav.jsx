@@ -14,7 +14,7 @@ export default function Nav({loading,user,register,login,logout}) {
                 <span />
                 <div className="el-popover__reference-wrapper">
                     <button className="nav__icon el-popover__reference" onClick={logout}>
-                        <span>E</span>
+                        <span>{user.email[0]}</span>
                     </button>
                 </div>
             </span>
